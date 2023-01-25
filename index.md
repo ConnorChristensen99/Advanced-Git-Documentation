@@ -24,10 +24,9 @@ Some disadvantages Git rebase are:</br>
 You should never rebase commits that have been pushed or shared with others on your team. Doing this could completely break your code as you are saying you want to use a new base for your code. That may be good but if you change the base of a commit that is now pushed to others and they are working on it there will be discrepancies and break the code.
 
 
-#### Create a new repo and demonstrate your knowledge of the following items with screenshots:
-#### A rebase merge
-#### An interactive rebase merge
-#### When you shouldn't rebase with a remote repo.
+![Screenshot 2023-01-25 153232](https://user-images.githubusercontent.com/89815410/214706953-cb21b9d3-6848-4991-b42b-5ced85eb6862.jpg)
+![Screenshot 2023-01-25 154218](https://user-images.githubusercontent.com/89815410/214708458-01f2f81b-cc47-4137-bc3b-795e946b184a.jpg)
+
 
 
 ## Git reset, checkout, and revert
@@ -51,11 +50,11 @@ All of these have their own use case scenarios in which it would be best to use 
 - `git revert` - Revert should be used when making or reverting changes on a public branch as it is a safe way to make changes without overwriting or losing any commits. This is a good way to undo committed changes as they have been staged already and there is no fear of totally breaking a project.
 
 
-#### Create a new repo and demonstrate your knowledge of the following items with screenshots:
-#### a Git reset
-#### a Git checkout
-#### a commit
-#### a Git revert
+
+![66](https://user-images.githubusercontent.com/89815410/214709836-a7589064-8b88-4ac3-aa0a-940aba6cb9ea.jpg)
+![88](https://user-images.githubusercontent.com/89815410/214710550-5e91e8c8-e757-4cc7-bd8a-52fede4d2aab.jpg)
+![111](https://user-images.githubusercontent.com/89815410/214710554-754209c0-f738-4b0d-a41d-944d51c6f246.jpg)
+
 
 
 ## Submodules
